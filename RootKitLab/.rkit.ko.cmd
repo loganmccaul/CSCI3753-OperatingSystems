@@ -1,0 +1,1 @@
+cmd_/home/user/Dropbox/rkit/rkit.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-35-generic/scripts/module-common.lds --build-id  -o /home/user/Dropbox/rkit/rkit.ko /home/user/Dropbox/rkit/rkit.o /home/user/Dropbox/rkit/rkit.mod.o

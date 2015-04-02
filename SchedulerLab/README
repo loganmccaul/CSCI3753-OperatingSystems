@@ -1,0 +1,48 @@
+CS3753 (Operating Systems)
+Fall 2104
+University of Colorado Boulder
+Programming Assignment 3
+
+By Logan McCaul - 2014
+
+---Folders---
+data - All the data from the benchmarks will go here
+
+---Executables---
+./runTests - A simple bash script for running the benchmarks (Run as root or sudo)
+./pi - A simple program for statistically calculating pi.
+./rw - A simple i/o bound program.
+./mixed - A simple program that calculates pi then writes it to the disk.
+./run - A program that changes the scheduling policy then forks one of the possible benchmark processes.
+
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+pi:
+ ./pi
+ ./pi <Number of Iterations>
+
+mixed:
+ ./pi-sched
+ ./pi-sched <Number of Iterations>
+ ./pi-sched <Number of Iterations> <#Bytes to Write to Output File> 
+ ./pi-sched <Number of Iterations> <#Bytes to Write to Output File> <Block Size>
+ ./pi-sched <Number of Iterations> <#Bytes to Write to Output File> <Block Size> <Output Filename>
+
+rw:
+ ./rw
+ ./rw <#Bytes to Write to Output File>
+ ./rw <#Bytes to Write to Output File> <Block Size>
+ ./rw <#Bytes to Write to Output File> <Block Size> <Input Filename>
+ ./rw <#Bytes to Write to Output File> <Block Size> <Input Filename> <Output Filename>
+
+runTests:
+ sudo ./runTests
+
+run:
+ ./run

@@ -1,0 +1,23 @@
+CS3753 (Operating Systems)
+Fall 2014
+University of Colorado Boulder
+Programming Assignment 2
+
+By Logan McCaul - 2014
+
+This program takes dns names as inputs and looks up the ip address
+and then prints to an output file.
+
+---Running---
+
+Build:
+ make
+
+Clean:
+ make clean
+
+Run:
+	./multi-lookup names1.txt names2.txt ... names*.txt output.txt
+
+Check queue for memory leaks:
+ valgrind ./multi-lookup names1.txt names2.txt ... names*.txt output.txt

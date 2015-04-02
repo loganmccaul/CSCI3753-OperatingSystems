@@ -1,0 +1,268 @@
+FIFO HEAVY CPU
+wall=18.54 user=34.39 system=0.83 CPU=190% i-switched=34 v-switched=2507
+wall=18.27 user=33.97 system=0.82 CPU=190% i-switched=36 v-switched=2520
+wall=17.97 user=33.40 system=0.80 CPU=190% i-switched=38 v-switched=2727
+wall=18.11 user=33.69 system=0.79 CPU=190% i-switched=32 v-switched=2788
+wall=17.97 user=33.43 system=0.77 CPU=190% i-switched=34 v-switched=2726
+
+wall=18.17 user=33.57 system=0.80 CPU=190% i-switched=34 v-switched=2653
+
+
+FIFO HEAVY IO
+wall=13.79 user=0.35 system=9.57 CPU=71% i-switched=0 v-switched=159701
+wall=14.49 user=0.33 system=9.48 CPU=67% i-switched=2 v-switched=166069
+wall=14.86 user=0.34 system=9.83 CPU=68% i-switched=0 v-switched=176925
+wall=22.98 user=0.26 system=25.12 CPU=110% i-switched=5 v-switched=1157480
+wall=14.10 user=0.42 system=9.35 CPU=69% i-switched=1 v-switched=161515
+
+wall=16.04 user=0.34 system=12.67 CPU=77% i-switched=2 v-switched=364338
+
+
+FIFO HEAVY MIXED
+wall=18.23 user=33.72 system=0.89 CPU=189% i-switched=55 v-switched=3982
+wall=18.16 user=33.69 system=0.89 CPU=190% i-switched=53 v-switched=3747
+wall=18.19 user=33.74 system=0.89 CPU=190% i-switched=48 v-switched=3864
+wall=18.34 user=33.96 system=0.93 CPU=190% i-switched=38 v-switched=4165
+wall=18.17 user=33.60 system=0.93 CPU=190% i-switched=40 v-switched=4344
+
+wall=18.21 user=33.74 system=0.91 CPU=190% i-switched=46 v-switched=4020
+
+
+FIFO LIGHT CPU
+wall=0.20 user=0.33 system=0.01 CPU=167% i-switched=0 v-switched=42
+wall=0.20 user=0.33 system=0.00 CPU=170% i-switched=0 v-switched=29
+wall=0.20 user=0.33 system=0.00 CPU=170% i-switched=0 v-switched=29
+wall=0.20 user=0.33 system=0.01 CPU=166% i-switched=0 v-switched=29
+wall=0.20 user=0.33 system=0.01 CPU=168% i-switched=4 v-switched=29
+
+wall=0.20 user=0.33 system=0.01 CPU=168% i-switched=1 v-switched=37
+
+
+FIFO LIGHT IO
+wall=0.67 user=0.02 system=0.17 CPU=29% i-switched=1 v-switched=2190
+wall=0.71 user=0.01 system=0.18 CPU=27% i-switched=0 v-switched=2181
+wall=0.70 user=0.00 system=0.21 CPU=31% i-switched=0 v-switched=2228
+wall=0.73 user=0.00 system=0.20 CPU=28% i-switched=0 v-switched=2228
+wall=0.69 user=0.00 system=0.21 CPU=30% i-switched=0 v-switched=2152
+
+wall=0.70 user=0.01 system=0.19 CPU=29% i-switched=0 v-switched=2195
+
+
+FIFO LIGHT MIXED
+wall=0.22 user=0.34 system=0.01 CPU=159% i-switched=4 v-switched=91
+wall=0.20 user=0.33 system=0.01 CPU=166% i-switched=4 v-switched=49
+wall=0.21 user=0.33 system=0.01 CPU=163% i-switched=0 v-switched=48
+wall=0.21 user=0.33 system=0.01 CPU=165% i-switched=0 v-switched=48
+wall=0.20 user=0.33 system=0.01 CPU=166% i-switched=0 v-switched=52
+
+wall=0.21 user=0.33 system=0.01 CPU=163% i-switched=2 v-switched=58
+
+
+FIFO MEDIUM CPU
+wall=1.79 user=3.35 system=0.07 CPU=191% i-switched=2 v-switched=301
+wall=1.78 user=3.29 system=0.09 CPU=190% i-switched=4 v-switched=301
+wall=1.79 user=3.35 system=0.06 CPU=191% i-switched=9 v-switched=301
+wall=1.79 user=3.32 system=0.08 CPU=190% i-switched=4 v-switched=278
+wall=1.77 user=3.37 system=0.07 CPU=194% i-switched=2 v-switched=292
+
+wall=1.79 user=3.36 system=0.07 CPU=191% i-switched=4 v-switched=295
+
+
+FIFO MEDIUM IO
+wall=1.95 user=0.02 system=1.04 CPU=54% i-switched=0 v-switched=17034
+wall=1.88 user=0.01 system=1.07 CPU=57% i-switched=4 v-switched=16859
+wall=1.98 user=0.02 system=1.07 CPU=55% i-switched=0 v-switched=17140
+wall=2.07 user=0.06 system=0.96 CPU=49% i-switched=0 v-switched=16825
+wall=1.86 user=0.04 system=1.08 CPU=60% i-switched=4 v-switched=17130
+
+wall=1.95 user=0.03 system=1.04 CPU=55% i-switched=2 v-switched=16998
+
+
+FIFO MEDIUM MIXED
+wall=1.81 user=3.39 system=0.08 CPU=191% i-switched=2 v-switched=402
+wall=1.83 user=3.41 system=0.08 CPU=190% i-switched=4 v-switched=391
+wall=1.77 user=3.36 system=0.09 CPU=194% i-switched=3 v-switched=412
+wall=2.14 user=3.88 system=0.18 CPU=190% i-switched=4 v-switched=412
+wall=1.83 user=3.37 system=0.10 CPU=189% i-switched=2 v-switched=431
+
+wall=1.88 user=3.48 system=0.09 CPU=191% i-switched=3 v-switched=410
+
+
+OTHER HEAVY CPU
+wall=36.30 user=34.33 system=1.38 CPU=98% i-switched=17300 v-switched=3304
+wall=33.94 user=34.26 system=1.57 CPU=105% i-switched=15417 v-switched=3325
+wall=31.38 user=33.61 system=1.51 CPU=111% i-switched=15759 v-switched=3398
+wall=35.05 user=33.31 system=1.75 CPU=100% i-switched=17146 v-switched=3392
+wall=35.77 user=34.46 system=1.43 CPU=100% i-switched=14914 v-switched=3346
+
+wall=34.58 user=33.99 system=1.53 CPU=103% i-switched=16107 v-switched=3353
+
+
+OTHER HEAVY IO
+wall=21.27 user=0.19 system=6.52 CPU=31% i-switched=54255 v-switched=96361
+wall=19.63 user=0.26 system=6.59 CPU=34% i-switched=54514 v-switched=100422
+wall=19.49 user=0.16 system=6.19 CPU=32% i-switched=52855 v-switched=96366
+wall=19.44 user=0.14 system=6.32 CPU=33% i-switched=53803 v-switched=99582
+wall=20.10 user=0.23 system=6.27 CPU=32% i-switched=50112 v-switched=101196
+
+wall=19.99 user=0.20 system=6.38 CPU=32% i-switched=53102 v-switched=98785
+
+
+OTHER HEAVY MIXED
+wall=37.75 user=34.56 system=1.18 CPU=94% i-switched=17982 v-switched=4604
+wall=37.31 user=33.82 system=1.95 CPU=95% i-switched=17253 v-switched=4520
+wall=41.83 user=34.09 system=1.49 CPU=85% i-switched=14741 v-switched=4695
+wall=40.66 user=34.55 system=1.13 CPU=87% i-switched=16903 v-switched=4640
+wall=24.90 user=33.87 system=1.27 CPU=141% i-switched=16800 v-switched=4543
+
+wall=36.49 user=34.18 system=1.40 CPU=141% i-switched=16736 v-switched=4600
+
+
+OTHER LIGHT CPU
+wall=0.44 user=0.34 system=0.01 CPU=79% i-switched=140 v-switched=36
+wall=0.52 user=0.34 system=0.01 CPU=68% i-switched=158 v-switched=30
+wall=0.38 user=0.32 system=0.02 CPU=90% i-switched=467 v-switched=33
+wall=0.47 user=0.33 system=0.01 CPU=72% i-switched=226 v-switched=31
+wall=0.47 user=0.33 system=0.01 CPU=73% i-switched=206 v-switched=33
+
+wall=0.46 user=0.33 system=0.01 CPU=76% i-switched=239 v-switched=33
+
+
+OTHER LIGHT IO
+wall=0.76 user=0.00 system=0.16 CPU=21% i-switched=179 v-switched=1680
+wall=0.83 user=0.00 system=0.15 CPU=18% i-switched=220 v-switched=1757
+wall=0.81 user=0.00 system=0.15 CPU=18% i-switched=102 v-switched=1636
+wall=0.79 user=0.00 system=0.13 CPU=17% i-switched=228 v-switched=1571
+wall=0.77 user=0.02 system=0.11 CPU=18% i-switched=109 v-switched=1734
+
+wall=0.79 user=0.00 system=0.14 CPU=18% i-switched=168 v-switched=1676
+
+
+OTHER LIGHT MIXED
+wall=0.52 user=0.34 system=0.01 CPU=68% i-switched=161 v-switched=68
+wall=0.48 user=0.34 system=0.01 CPU=73% i-switched=332 v-switched=47
+wall=0.37 user=0.33 system=0.01 CPU=90% i-switched=773 v-switched=48
+wall=0.48 user=0.35 system=0.00 CPU=72% i-switched=120 v-switched=46
+wall=0.51 user=0.34 system=0.01 CPU=68% i-switched=122 v-switched=47
+
+wall=0.47 user=0.34 system=0.01 CPU=74% i-switched=302 v-switched=51
+
+
+OTHER MEDIUM CPU
+wall=3.88 user=3.26 system=0.18 CPU=88% i-switched=3317 v-switched=345
+wall=4.07 user=3.46 system=0.09 CPU=87% i-switched=2019 v-switched=336
+wall=4.07 user=3.28 system=0.18 CPU=85% i-switched=1415 v-switched=327
+wall=4.24 user=3.44 system=0.10 CPU=83% i-switched=1228 v-switched=334
+wall=2.67 user=3.37 system=0.09 CPU=129% i-switched=1242 v-switched=343
+
+wall=3.79 user=3.36 system=0.13 CPU=94% i-switched=1844 v-switched=337
+
+
+OTHER MEDIUM IO
+wall=2.51 user=0.01 system=0.65 CPU=26% i-switched=4320 v-switched=11207
+wall=2.50 user=0.00 system=0.65 CPU=26% i-switched=4496 v-switched=10345
+wall=2.38 user=0.00 system=0.67 CPU=28% i-switched=4496 v-switched=11132
+wall=2.42 user=0.02 system=0.62 CPU=26% i-switched=4185 v-switched=10632
+wall=2.60 user=0.01 system=0.66 CPU=25% i-switched=3894 v-switched=12032
+
+wall=2.48 user=0.01 system=0.65 CPU=26% i-switched=4278 v-switched=11070
+
+
+OTHER MEDIUM MIXED
+wall=4.41 user=3.44 system=0.10 CPU=80% i-switched=1246 v-switched=422
+wall=4.23 user=3.40 system=0.11 CPU=83% i-switched=1518 v-switched=465
+wall=2.34 user=3.32 system=0.12 CPU=146% i-switched=1735 v-switched=411
+wall=4.45 user=3.41 system=0.14 CPU=79% i-switched=1738 v-switched=421
+wall=3.84 user=3.39 system=0.13 CPU=91% i-switched=1482 v-switched=425
+
+wall=3.85 user=3.39 system=0.12 CPU=96% i-switched=1324 v-switched=429
+
+
+RR HEAVY CPU
+wall=18.19 user=33.74 system=0.94 CPU=190% i-switched=281 v-switched=3216
+wall=18.09 user=33.62 system=0.80 CPU=190% i-switched=57 v-switched=2602
+wall=18.15 user=33.67 system=0.79 CPU=189% i-switched=40 v-switched=2622
+wall=18.05 user=33.52 system=0.84 CPU=190% i-switched=68 v-switched=3123
+wall=18.12 user=33.72 system=0.79 CPU=190% i-switched=51 v-switched=2749
+
+wall=18.12 user=33.65 system=0.83 CPU=190% i-switched=99 v-switched=2862
+
+
+RR HEAVY IO
+wall=14.03 user=0.42 system=10.93 CPU=81% i-switched=5 v-switched=207516
+wall=14.71 user=0.26 system=10.62 CPU=73% i-switched=1 v-switched=215074
+wall=15.15 user=0.39 system=10.07 CPU=69% i-switched=0 v-switched=172462
+wall=13.73 user=0.38 system=10.16 CPU=76% i-switched=2 v-switched=178788
+wall=14.11 user=0.33 system=10.24 CPU=74% i-switched=2 v-switched=211334
+
+wall=14.35 user=0.36 system=10.40 CPU=75% i-switched=2 v-switched=197035
+
+
+RR HEAVY MIXED
+wall=18.28 user=33.79 system=0.96 CPU=190% i-switched=63 v-switched=4796
+wall=18.29 user=33.90 system=0.91 CPU=190% i-switched=80 v-switched=4623
+wall=18.18 user=33.68 system=0.92 CPU=190% i-switched=67 v-switched=3565
+wall=18.14 user=33.61 system=0.93 CPU=190% i-switched=65 v-switched=3730
+wall=18.16 user=33.74 system=0.83 CPU=190% i-switched=53 v-switched=4480
+
+wall=18.21 user=33.74 system=0.91 CPU=190% i-switched=66 v-switched=4239
+
+
+RR LIGHT CPU
+wall=0.20 user=0.33 system=0.00 CPU=166% i-switched=0 v-switched=30
+wall=0.20 user=0.33 system=0.00 CPU=166% i-switched=4 v-switched=29
+wall=0.20 user=0.34 system=0.00 CPU=170% i-switched=4 v-switched=29
+wall=0.20 user=0.33 system=0.00 CPU=167% i-switched=0 v-switched=29
+wall=0.21 user=0.34 system=0.01 CPU=162% i-switched=1 v-switched=31
+
+wall=0.20 user=0.33 system=0.01 CPU=166% i-switched=2 v-switched=29
+
+
+RR LIGHT IO
+wall=0.70 user=0.00 system=0.21 CPU=30% i-switched=0 v-switched=2188
+wall=0.71 user=0.01 system=0.19 CPU=29% i-switched=0 v-switched=2146
+wall=0.76 user=0.04 system=0.15 CPU=25% i-switched=0 v-switched=2168
+wall=0.75 user=0.04 system=0.16 CPU=27% i-switched=0 v-switched=2216
+wall=0.71 user=0.00 system=0.22 CPU=31% i-switched=0 v-switched=2237
+
+wall=0.73 user=0.02 system=0.18 CPU=28% i-switched=0 v-switched=2191
+
+
+RR LIGHT MIXED
+wall=0.22 user=0.35 system=0.01 CPU=168% i-switched=0 v-switched=80
+wall=0.21 user=0.34 system=0.00 CPU=167% i-switched=0 v-switched=48
+wall=0.21 user=0.34 system=0.00 CPU=166% i-switched=4 v-switched=48
+wall=0.20 user=0.34 system=0.01 CPU=171% i-switched=5 v-switched=47
+wall=0.20 user=0.34 system=0.00 CPU=166% i-switched=0 v-switched=48
+
+wall=0.21 user=0.34 system=0.00 CPU=167% i-switched=2 v-switched=54
+
+
+RR MEDIUM CPU
+wall=1.80 user=3.36 system=0.08 CPU=191% i-switched=2 v-switched=301
+wall=1.81 user=3.34 system=0.08 CPU=189% i-switched=4 v-switched=286
+wall=1.73 user=3.31 system=0.09 CPU=196% i-switched=2 v-switched=301
+wall=1.83 user=3.36 system=0.08 CPU=187% i-switched=3 v-switched=254
+wall=1.83 user=3.39 system=0.07 CPU=188% i-switched=4 v-switched=301
+
+wall=1.80 user=3.34 system=0.08 CPU=190% i-switched=3 v-switched=289
+
+
+RR MEDIUM IO
+wall=2.03 user=0.06 system=0.95 CPU=50% i-switched=0 v-switched=16623
+wall=1.82 user=0.03 system=1.09 CPU=61% i-switched=0 v-switched=17446
+wall=1.82 user=0.02 system=1.03 CPU=57% i-switched=0 v-switched=17011
+wall=1.95 user=0.06 system=1.04 CPU=56% i-switched=0 v-switched=17271
+wall=1.85 user=0.00 system=1.11 CPU=60% i-switched=0 v-switched=17024
+
+wall=1.89 user=0.03 system=1.04 CPU=57% i-switched=0 v-switched=17075
+
+
+RR MEDIUM MIXED
+wall=1.79 user=3.37 system=0.11 CPU=193% i-switched=2 v-switched=420
+wall=1.89 user=3.47 system=0.08 CPU=188% i-switched=6 v-switched=394
+wall=1.83 user=3.39 system=0.07 CPU=189% i-switched=5 v-switched=418
+wall=1.77 user=3.40 system=0.07 CPU=196% i-switched=5 v-switched=430
+wall=1.84 user=3.37 system=0.08 CPU=188% i-switched=4 v-switched=418
+
+wall=1.82 user=3.40 system=0.08 CPU=190% i-switched=4 v-switched=416

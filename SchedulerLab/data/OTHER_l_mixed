@@ -1,0 +1,5 @@
+wall=0.52 user=0.34 system=0.01 CPU=68% i-switched=161 v-switched=68
+wall=0.48 user=0.34 system=0.01 CPU=73% i-switched=332 v-switched=47
+wall=0.37 user=0.33 system=0.01 CPU=90% i-switched=773 v-switched=48
+wall=0.48 user=0.35 system=0.00 CPU=72% i-switched=120 v-switched=46
+wall=0.51 user=0.34 system=0.01 CPU=68% i-switched=122 v-switched=47

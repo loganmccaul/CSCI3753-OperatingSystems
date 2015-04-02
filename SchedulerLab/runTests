@@ -1,0 +1,198 @@
+#!/bin/sh
+
+TIMEFORMAT="wall=%e user=%U system=%S CPU=%P i-switched=%c v-switched=%w"
+
+echo "starting tests"
+make clean
+make
+
+#RR
+#cpu
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_l_cpu -a ./run 5 SCHED_RR cpu
+done
+echo "Finished lRRcpu"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_m_cpu -a ./run 50 SCHED_RR cpu
+done
+echo "Finished mRRcpu"
+
+for i in {1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_h_cpu -a ./run 500 SCHED_RR cpu
+done
+echo "Finished hRRcpu"
+
+#IO
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_l_io -a ./run 5 SCHED_RR io
+done
+echo "Finished RR_l_io"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_m_io -a ./run 50 SCHED_RR io
+done
+echo "Finished RR_m_io"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_h_io -a ./run 500 SCHED_RR io
+done
+echo "Finished RR_h_io"
+
+#Mixed
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_l_mixed -a ./run 5 SCHED_RR mixed
+done
+echo "Finished RR_l_mixed"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_m_mixed -a ./run 50 SCHED_RR mixed
+done
+echo "Finished RR_m_mixed"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o RR_h_mixed -a ./run 500 SCHED_RR mixed
+done
+echo "Finished RR_h_mixed"
+
+mv RR_* data
+
+#FIFO
+#cpu
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_l_cpu -a ./run 5 SCHED_FIFO cpu
+done
+echo "Finished lFIFOcpu"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_m_cpu -a ./run 50 SCHED_FIFO cpu
+done
+echo "Finished mFIFOcpu"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_h_cpu -a ./run 500 SCHED_FIFO cpu
+done
+echo "Finished hFIFOcpu"
+
+#IO
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_l_io -a ./run 5 SCHED_FIFO io
+done
+echo "Finished FIFO_l_io"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_m_io -a ./run 50 SCHED_FIFO io
+done
+echo "Finished FIFO_m_io"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_h_io -a ./run 500 SCHED_FIFO io
+done
+echo "Finished FIFO_h_io"
+
+#Mixed
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_l_mixed -a ./run 5 SCHED_FIFO mixed
+done
+echo "Finished FIFO_l_mixed"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_m_mixed -a ./run 50 SCHED_FIFO mixed
+done
+echo "Finished FIFO_m_mixed"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o FIFO_h_mixed -a ./run 500 SCHED_FIFO mixed
+done
+echo "Finished FIFO_h_mixed"
+
+mv FIFO_* data
+
+#OTHER
+#cpu
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_l_cpu -a ./run 5 SCHED_OTHER cpu
+done
+echo "Finished lOTHERcpu"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_m_cpu -a ./run 50 SCHED_OTHER cpu
+done
+echo "Finished mOTHERcpu"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_h_cpu -a ./run 500 SCHED_OTHER cpu
+done
+echo "Finished hOTHERcpu"
+
+#IO
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_l_io -a ./run 5 SCHED_OTHER io
+done
+echo "Finished OTHER_l_io"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_m_io -a ./run 50 SCHED_OTHER io
+done
+echo "Finished OTHER_m_io"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_h_io -a ./run 500 SCHED_OTHER io
+done
+echo "Finished OTHER_h_io"
+
+#Mixed
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_l_mixed -a ./run 5 SCHED_OTHER mixed
+done
+echo "Finished OTHER_l_mixed"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_m_mixed -a ./run 50 SCHED_OTHER mixed
+done
+echo "Finished OTHER_m_mixed"
+
+for i in 1 2 3 4 5
+do
+/usr/bin/time --format="$TIMEFORMAT" -o OTHER_h_mixed -a ./run 500 SCHED_OTHER mixed
+done
+echo "Finished OTHER_h_mixed"
+
+mv OTHER_* data
+
+echo "Finshied Completely"
